@@ -4,9 +4,13 @@ import { latestNews,otherNews,latestGallery } from '../actions'
 import { bindActionCreators } from 'redux';
 
 // COMPONENTS
-import LatestNews from '../components/home/Latest'
-import OtherNews from '../components/home/OtherNews'
-import Gallery from '../components/home/Gallery'
+import LatestNews from '../components/home/Latest';
+import OtherNews from '../components/home/OtherNews';
+import Gallery from '../components/home/Gallery';
+
+import NewsSlider from '../widgets/NewsSlider/slider';
+import NewsList from '../widgets/NewsList/newsList';
+import VideosList from '../widgets/VideosList/videosList';
 
 class Home extends Component {
 
