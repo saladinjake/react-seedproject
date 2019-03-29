@@ -5,7 +5,7 @@ import style from './logo.css';
 const Logo = ({imageUrl}) => {
   return (
      <Link to="/" className={style.logo}>
-            <img alt="nba logo" src="/images/nba_logo.png"/>
+            <img alt="nba logo" src=`/images/${imageUrl}`/>
         </Link>
   );
 };
