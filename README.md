@@ -6,7 +6,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9645da548188cfadbd1a/maintainability)](https://codeclimate.com/github/saladinjake/react-seedproject/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/9645da548188cfadbd1a/test_coverage)](https://codeclimate.com/github/saladinjake/react-seedproject/test_coverage)
 
-
 # Documentation
 
 Webapp Was Built In:
