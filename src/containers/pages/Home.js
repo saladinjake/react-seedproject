@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { latestNews, otherNews, latestGallery } from '../actions';
+import { latestNews, otherNews, latestGallery } from '../redux/_actions';
 import { bindActionCreators } from 'redux';
 
 // COMPONENTS
@@ -8,9 +8,9 @@ import LatestNews from '../components/home/Latest';
 import OtherNews from '../components/home/OtherNews';
 import Gallery from '../components/home/Gallery';
 
-import NewsSlider from '../widgets/NewsSlider/slider';
-import NewsList from '../widgets/NewsList/newsList';
-import VideosList from '../widgets/VideosList/videosList';
+import NewsSlider from '../components/widgets/NewsSlider/slider';
+import NewsList from '../components/widgets/NewsList/newsList';
+import VideosList from '../components/widgets/VideosList/videosList';
 
 class Home extends Component {
   componentDidMount() {

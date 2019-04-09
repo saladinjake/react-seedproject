@@ -1,7 +1,7 @@
 import React from 'react';
 import './myStyles.scss';
 
-import { AsyncComponent } from './components/async_component/AsyncComponent/AsyncComponent.js';
+import  AsyncComponent from './components/async_component/AsyncComponent/asyncComponent.js';
 import WebsiteEntryPoint from './routes/routes.js';
 
 /*
