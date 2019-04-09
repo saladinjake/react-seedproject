@@ -12,7 +12,7 @@ RUN npm install
 COPY . /usr/hammer/react-starter-kit-master
 
 # Build arguments
-ARG NODE_VERSION=8.11.1
+ARG NODE_VERSION=10.4.1
 
 # Environment
 ENV NODE_VERSION $NODE_VERSION

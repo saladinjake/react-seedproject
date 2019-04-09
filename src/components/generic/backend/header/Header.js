@@ -2,17 +2,14 @@ import React from 'react';
 import React from 'react';
 import style from './header.css';
 
-import NavBarWithLogo from '../menu/menu.js'
+import NavBarWithLogo from '../menu/menu.js';
 
-const Header = (props) => {
+const Header = props => {
+  return (
+    <header className={style.header}>
+      <NavBarWithLogo logo={imageUrl} />
+    </header>
+  );
+};
 
-    return (
-        <header className={style.header}>
-                 <NavBarWithLogo logo={imageUrl}/>
-        </header>
-    )
-
-
-}
-
-export { Header } ;
+export { Header };

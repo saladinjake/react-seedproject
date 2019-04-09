@@ -2,23 +2,19 @@ import React from 'react';
 import './myStyles.scss';
 
 import { AsyncComponent } from './components/async_component/AsyncComponent/AsyncComponent.js';
-import WebsiteEntryPoint from './routes/routes.js'
-
+import WebsiteEntryPoint from './routes/routes.js';
 
 /*
-*We Love beautiful codes
-**
-*don't you just love it?
-*/
+ *We Love beautiful codes
+ **
+ *don't you just love it?
+ */
 class App extends React.Component {
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
   }
   render() {
-    return (
-      <WebsiteEntryPoint {...this.props}/>
-      
-    );
+    return <WebsiteEntryPoint {...this.props} />;
   }
 }
 

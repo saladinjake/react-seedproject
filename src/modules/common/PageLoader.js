@@ -13,5 +13,4 @@ PageLoader.propTypes = {
   classes: PropTypes.object.isRequired, // Material UI Injected
 };
 
-
-export { PageLoader }
+export { PageLoader };

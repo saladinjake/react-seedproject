@@ -2,28 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Material UI
 
-
 const styles = {
-  
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-  
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  height: '100vh',
 };
-
 
 const PageLoader = () => {
-  return (
-    <div>
-     
-    </div>
-  );
+  return <div />;
 };
 
-PageLoader.propTypes = {
-  
-};
+PageLoader.propTypes = {};
 
 export default PageLoader;

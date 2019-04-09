@@ -1,16 +1,13 @@
 import React from 'react';
 import './myStyles.scss';
-import { ThemeJacket } from './components/ui/skins/base.js';
 import { AsyncComponent } from './components/async_component/AsyncComponent.js';
-import { AsyncRoute } from './components/async_component/AsyncRoute.js'
-
+import { AsyncRoute } from './components/async_component/AsyncRoute.js';
 
 class App extends React.Component {
-  
   state = {
     CaptainKirkBio: {},
     Foo: null, // Foo is out component
-    route: '/'
+    route: '/',
   };
 
   componentDidMount() {
@@ -20,10 +17,10 @@ class App extends React.Component {
     });
   }
 
-  onRouteChange = (route) => {
+  onRouteChange = route => {
     // Part 1 - No Code Splitting
     this.setState({ route: route });
-  }
+  };
 
   onGetKirkBio = async () => {
     try {
@@ -52,8 +49,7 @@ class App extends React.Component {
         <img alt="header" src="/dist/images/header.jpg" className="app-header" />
         <p>
           We are a most promising species, Mr. Spock, as predators go. Did you know that? I I
-          frequently have my doubts. I dont. Not any more. And maybe in a thousand
-          years or so will
+          frequently have my doubts. I dont. Not any more. And maybe in a thousand years or so will
           be able to prove it.
         </p>
         <p>- Captain Kirk</p>

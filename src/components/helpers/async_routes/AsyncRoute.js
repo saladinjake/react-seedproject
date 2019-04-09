@@ -1,26 +1,26 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class AsyncRoute extends Component {
-  getInitialState () {
+  getInitialState() {
     return {
-      loaded: false
-    }
+      loaded: false,
+    };
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.props.loading.then(module => {
-      this.component = module.default
-      this.setState({loaded: true})
-    })
+      this.component = module.default;
+      this.setState({ loaded: true });
+    });
   }
 
-  render () {
+  render() {
     if (this.state.loaded) {
-      return <this.component {...this.props.props} />
+      return <this.component {...this.props.props} />;
     } else {
-      return <h2>Loading...</h2>
+      return <h2>Loading...</h2>;
     }
   }
 }
 
-export default AsyncRoute
+export default AsyncRoute;
