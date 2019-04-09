@@ -1,0 +1,1 @@
+import { filterByCategories , filterOnSearch } from './filters';
