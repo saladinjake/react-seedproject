@@ -1,0 +1,299 @@
+[
+    {
+      "title":"Nissan",
+      "data":[
+        {
+             "id": 1,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        },
+        {
+            "id": 2,
+           "name": "Nissan jeep",
+           "plate_num": "QWERTY12",
+           "model": "QSD", 
+           "vehicle_image": "images/cars/nissan1.jpg",
+           "booking_status": "full",
+           "vacancy": "no vacancies",
+           "available_no_of_seats": 3,
+           "price " : 12400,
+           "maintenance_status" : "",
+           "description":"COMFORTTABLE BLACK JEEP",
+           "driversInfo": {
+            "name": "Austin Hoods",
+            "profile": "images/drivers/austin.jpg",
+            "licence_no": "xxx-xxx-xxx",
+            "ratings": 5
+            
+          }
+       },
+       {
+            "id": 3,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        },
+        {
+            "id": 4,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        },
+        {
+            "id": 5,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        },
+        {
+            "id": 6,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        },
+        {
+            "id": 7,
+            "name": "Nissan jeep",
+            "plate_num": "QWERTY12",
+            "model": "QSD", 
+            "vehicle_image": "images/cars/nissan1.jpg",
+            "booking_status": "full",
+            "vacancy": "no vacancies",
+            "available_no_of_seats": 3,
+            "price " : 12400,
+            "maintenance_status" : "",
+            "description":"COMFORTTABLE BLACK JEEP",
+            "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+              }
+        }
+      ]
+      
+},
+    
+
+
+    {
+        "title":"Toyota",
+        "data":[
+          {
+               "id": 8,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          },
+          {
+              "id": 9,
+             "name": "Nissan jeep",
+             "plate_num": "QWERTY12",
+             "model": "QSD", 
+             "vehicle_image": "images/cars/nissan1.jpg",
+             "booking_status": "full",
+             "vacancy": "no vacancies",
+             "available_no_of_seats": 3,
+             "price " : 12400,
+             "maintenance_status" : "",
+             "description":"COMFORTTABLE BLACK JEEP",
+             "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+         },
+         {
+              "id": 10,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          },
+          {
+              "id": 11,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          },
+          {
+              "id": 12,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          },
+          {
+              "id": 13,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          },
+          {
+              "id": 14,
+              "name": "Nissan jeep",
+              "plate_num": "QWERTY12",
+              "model": "QSD", 
+              "vehicle_image": "images/cars/nissan1.jpg",
+              "booking_status": "full",
+              "vacancy": "no vacancies",
+              "available_no_of_seats": 3,
+              "price " : 12400,
+              "maintenance_status" : "",
+              "description":"COMFORTTABLE BLACK JEEP",
+              "driversInfo": {
+                "name": "Austin Hoods",
+                "profile": "images/drivers/austin.jpg",
+                "licence_no": "xxx-xxx-xxx",
+                "ratings": 5
+                
+            }
+          }
+        ]
+        
+
+        
+      }
+  ]
