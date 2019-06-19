@@ -1,19 +1,40 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // Material UI
+import { withStyles } from '@material-ui/core/styles';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import './PageLoader.scss';
+const styles = theme => ({
+  progress: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+    margin: theme.spacing.unit * 5,
+  },
+});
 
-const styles = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  height: '100vh',
+const PageLoader = ({ classes }) => {
+  return (
+    <div className={classes.progress}>
+              <CircularProgress />
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <p>~</p>
+              <p>~</p>
+              <p>Loading...</p> 
+    </div>
+  );
 };
 
-const PageLoader = () => {
-  return <div />;
+PageLoader.propTypes = {
+  classes: PropTypes.object.isRequired, // Material UI Injected
 };
 
-PageLoader.propTypes = {};
-
-export default PageLoader;
+export default withStyles(styles)(PageLoader);

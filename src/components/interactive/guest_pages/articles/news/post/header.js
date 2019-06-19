@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TeamNfo from '../../elements/teamNfo';
-import PostData from '../../elements/postData';
+import TeamNfo from '../../Elements/teamNfo';
+import PostData from '../../Elements/postData';
 
 const header = props => {
   const teamNfo = team => {

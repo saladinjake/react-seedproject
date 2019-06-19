@@ -44,12 +44,12 @@ module.exports = env => {
           }),
           new CopyWebpackPlugin([ { from: 'src/static' } ]),
         ],
-        // output: {
-        //   filename: '[name].bundle.js',
-        //   chunkFilename: '[name].chunk.bundle.js',
-        //   path: path.resolve(__dirname, '..', 'dist'),
-        //   publicPath: '/',
-        // },
+        output: {
+          filename: '[name].bundle.js',
+          chunkFilename: '[name].chunk.bundle.js',
+          path: path.resolve(__dirname, '..', 'dist'),
+          publicPath: '/',
+        },
     }
   ])
 };

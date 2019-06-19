@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { URL } from '../../../../config';
+let URL = 'http://localhost:3004';
 
 import styles from '../../articles.css';
 import Header from './header';
-import VideosRelated from '../../../widgets/VideosList/VideosRelated/videosRelated';
+import VideosRelated from '../../../../../widgets/VideosList/VideosRelated/videosRelated';
 
 class VideoArticle extends Component {
   state = {

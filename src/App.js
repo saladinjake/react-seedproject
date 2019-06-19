@@ -1,7 +1,5 @@
 import React from 'react';
-import './myStyles.scss';
-
-import  AsyncComponent from './components/async_component/AsyncComponent/asyncComponent.js';
+import { AsyncComponent } from './components/helpers/async_component/AsyncComponent/AsyncComponent.js';
 import WebsiteEntryPoint from './routes/routes.js';
 
 /*
@@ -10,12 +8,68 @@ import WebsiteEntryPoint from './routes/routes.js';
  *don't you just love it?
  */
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return <WebsiteEntryPoint {...this.props} />;
-  }
+
+	// 1 GET DEFAULT PROPS
+    constructor(props){
+        super(props)
+
+        // 2 SET INITIAL STATE.
+        this.state = {
+            
+        }   
+    }
+
+
+  
+	  render() {
+	    return <WebsiteEntryPoint />;
+	  }
+
+
+	  // 3 BEFORE COMPONENT GETS CREATED
+	    componentWillMount(){
+	        console.log('BEFORE COMPONENT GETS CREATED')
+	    }
+
+
+	    shouldComponentUpdate(nextProps, nextState){
+	      //  console.log(this.state.title)
+	      //  console.log(nextState.title)
+
+	        if(nextState.title === "something else"){
+	            return false
+	        }
+	        return true
+
+	       //return false
+	    }
+	    componentWillUpdate(){
+	        console.log('BEFORE UPDATE')
+	    }
+	    componentDidUpdate(){
+	        console.log('AFTER UPDATE')
+	    }
+
+	     // 5 AFTER A COMPONENT IS MOUNTED OR CREATED
+	    componentDidMount(){
+	        console.log('AFTER A COMPONENT IS MOUNTED OR CREATED')
+	        //document.querySelector('h1').style.color = 'red';
+	      //   fetch(URL_ARTIST, {
+		     //        method: 'GET'
+		     // })
+		     // .then(response => response.json())
+		     // .then(json => {
+		     //        this.setState({artists:json})
+		     //  })
+	    }
+
+
+
+	    componentWillUnmount(){
+	         console.log('UNMOUNT COMPONENT')
+	    }
+
 }
 
 export default App;
+

@@ -4,7 +4,7 @@ import { selectedNews, clearSelectedNews } from '../actions';
 import { bindActionCreators } from 'redux';
 
 // HITS COUNTER
-import Counter from './LikesCounter';
+import Counter from '../entities/LikesCounter';
 
 class News extends Component {
   componentDidMount() {
@@ -12,7 +12,10 @@ class News extends Component {
   }
   componentWillUnmount() {
     this.props.clearSelectedNews();
+
+
   }
+
 
   renderNews = ({ selected }) => {
     console.log(selected);

@@ -1,9 +1,10 @@
 import { combineReducers } from 'redux';
-
-import user from './userReducer';
+import articles from './articles_reducer';
+import gallery from './galleries_reducer';
 
 const rootReducer = combineReducers({
-  user,
+    articles,
+    gallery
 });
 
 export default rootReducer;

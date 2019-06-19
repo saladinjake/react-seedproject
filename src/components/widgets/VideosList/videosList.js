@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from  './videosList.css';
 import axios from 'axios';
 
-import { URL } from '../../../config';
+let URL = 'http://localhost:3004';
 import Button from '../Buttons/buttons';
 import VideosListTemplate from './videosListTemplate'
 

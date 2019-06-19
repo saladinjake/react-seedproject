@@ -3,7 +3,7 @@ import { CSSTransition , TransitionGroup } from 'react-transition-group';
 import { Link } from  'react-router-dom';
 import axios from 'axios';
 
-import { URL } from '../../../config';
+let URL = 'http://localhost:3004';
 import styles from './newsList.css';
 
 import Button from  '../Buttons/buttons';

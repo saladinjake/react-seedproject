@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import SliderTemplates from './slider_templates';
-import { URL } from '../../../config';
+let URL = 'http://localhost:3004';
 
 class NewsSlider extends Component {
 
@@ -22,6 +22,8 @@ class NewsSlider extends Component {
     render(){
         return(
             <SliderTemplates data={this.state.news} type={this.props.type} settings={this.props.settings}/>
+           
+
         )
     }
 
