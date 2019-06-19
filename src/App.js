@@ -1,5 +1,4 @@
 import React from 'react';
-import { AsyncComponent } from './components/helpers/async_component/AsyncComponent/AsyncComponent.js';
 import WebsiteEntryPoint from './routes/routes.js';
 
 /*
