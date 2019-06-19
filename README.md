@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/saladinjake/react-seedproject.svg?style=svg)](https://circleci.com/gh/saladinjake/react-seedproject)[![Coverage Status](https://coveralls.io/repos/github/saladinjake/react-seedproject/badge.svg?branch=master)](https://coveralls.io/github/saladinjake/react-seedproject?branch=master)
+
 # Documentation
 
 Webapp Was Built In:
