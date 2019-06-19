@@ -4,31 +4,31 @@ export  WebsiteConfig = {
   slogan: 'code kit',
   frontendNavigationLinks : [
         {
-            type: style.option,
+            type: 'help',
             icon: 'home',
             text: 'Home',
             link: '/'
         },
         {
-            type: style.option,
+            type: 'help',
             icon: 'file-text-o',
             text: 'News',
             link: '/news'
         },
         {
-            type: style.option,
+            type: 'help',
             icon: 'play',
             text: 'Videos',
             link: '/videos'
         },
         {
-            type: style.option,
+            type: 'help',
             icon: 'sign-in',
             text: 'Sign in',
             link: '/sign-in'
         },
         {
-            type: style.option,
+            type: 'help',
             icon: 'sign-out',
             text: 'Sign out',
             link: '/sign-out'

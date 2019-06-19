@@ -1,12 +1,12 @@
 import React from 'react';
-import style from './header.css';
+//import style from './header.css';
 import { Link } from 'react-router-dom';
 
 import FontAwesome from 'react-fontawesome';
 import SideNav from './mobile_menu/sideNav';
-import Logo from './menu/logo/logo.js';
+import Logo from './menu/logo/logo';
 //import SearchBox from './menu/searchbox/search_form.js';
-import NavLinks from './menu/links/links.js';
+import NavLinks from './menu/links/links';
 
 const Header = props => {
   const hamBugger = () => (
